@@ -5,8 +5,13 @@ body {
   padding: 0;
 }
 
+/* Should be displaying buttons when typing */
 .save-note, .new-note, .clear-btn {
   display: none;
+}
+/* added class for visibility functionalty */
+.show {
+  display: inline; /* or 'block' depending on your layout */
 }
 
 .icons {
